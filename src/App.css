@@ -79,3 +79,26 @@ h1{
     grid-column: 2/4;
     grid-row: 1;
 }
+
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.whats{
+    color: green;
+}
+
+.face{
+    color: #3658ca;
+}
+
+.tweet{
+    color: #3d7bff;
+}
