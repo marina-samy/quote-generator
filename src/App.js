@@ -10,8 +10,8 @@ const App = () => {
   const url = "https://api.quotable.io/random";
   const appId = '1461423604685837';
   let quoteData = {
-    content: "Let time be your only competitor.",
-    author: "Ahmed Saber"
+    content: "I didn't fail the test. I just found 99 ways to do it wrong",
+    author: "Tohmas Idson"
   }
   const [quote, setQuote] = useState(quoteData)
 
@@ -26,7 +26,7 @@ const App = () => {
 
   const copy = () => {
     navigator.clipboard.writeText(quote.author + " once said: " + quote.content)
-    alert('copied')
+    // alert('copied')
   }
 
   const shareBtn = window.location.href;

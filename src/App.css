@@ -185,4 +185,5 @@ html, body{
 .copy{
     color: #9916b9fd;
     text-shadow: #000000;
+    cursor: pointer;
 }
